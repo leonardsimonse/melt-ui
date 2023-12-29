@@ -21,7 +21,7 @@
 	<p class="text-center text-magnum-900">
 		Showing items {$range.start} - {$range.end}
 	</p>
-	<div class="flex items-center gap-2">
+	<div class="grid auto-cols-fr grid-flow-col items-center gap-2">
 		<button
 			class="grid h-8 items-center rounded-md bg-white px-3 text-sm text-magnum-900 shadow-sm
 			hover:opacity-75 disabled:cursor-not-allowed disabled:opacity-50 data-[selected]:bg-magnum-900
